@@ -95,18 +95,23 @@ body {
 
 .hero {
   height: 70vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("hero-car.jpg") center/cover no-repeat;
+  padding-top: 40px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/image.png") center/cover no-repeat;
   display: flex;
   align-items: center;
 }
 .hero .hero-content {
   max-width: 800px;
-  margin-top: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 .hero .hero-content h1 {
   font-size: 3.5rem;
-  line-height: 1.2;
-  margin-bottom: 1.5rem;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+.hero .hero-content h1 .hidden {
+  visibility: hidden;
 }
 .hero .hero-content h1 span {
   color: #c5a059;
@@ -115,7 +120,7 @@ body {
 .hero .hero-content p {
   font-size: 1.2rem;
   color: #b0b0b0;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .services {
@@ -185,9 +190,12 @@ body {
 .footer .footer-social {
   margin-bottom: 20px;
 }
+.footer .footer-social .footer-logo {
+  padding-right: 20px;
+}
 .footer .footer-social a {
   color: #b0b0b0;
-  margin: 0 15px;
+  margin: 0 16px;
   text-decoration: none;
   font-size: 0.9rem;
 }
