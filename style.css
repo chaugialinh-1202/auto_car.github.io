@@ -206,6 +206,9 @@ body {
   color: #666;
   font-size: 0.8rem;
 }
+.footer i {
+  color: white;
+}
 
 @media (max-width: 768px) {
   .header .nav {

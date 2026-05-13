@@ -251,6 +251,10 @@ body {
     border-top: 1px solid rgba(197, 160, 89, 0.2);
     text-align: center;
 
+    i{
+        size: 100px;
+        cursor: pointer;
+    }
     .footer-logo img {
         height: 60px;
         margin-bottom: 20px;
@@ -277,5 +281,8 @@ body {
     p {
         color: #666;
         font-size: 0.8rem;
+    }
+    i{
+        color: white;
     }
 }

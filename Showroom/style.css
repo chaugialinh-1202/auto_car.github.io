@@ -242,6 +242,10 @@ body {
   border-top: 1px solid rgba(197, 160, 89, 0.2);
   text-align: center;
 }
+.footer i {
+  size: 100px;
+  cursor: pointer;
+}
 .footer .footer-logo img {
   height: 60px;
   margin-bottom: 20px;
@@ -264,4 +268,7 @@ body {
 .footer p {
   color: #666;
   font-size: 0.8rem;
+}
+.footer i {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
